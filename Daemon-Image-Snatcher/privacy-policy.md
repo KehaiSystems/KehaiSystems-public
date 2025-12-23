@@ -110,10 +110,10 @@ Conformément au RGPD et aux lois sur la protection des données :
 
 Pour toute question concernant cette politique de confidentialité ou le traitement de vos données, vous pouvez nous contacter :
 
-- **Développeur** : HellSoftware
+- **Développeur** : HellTechnologies
 - **Extension** : Daemon Image Snatcher
 - **Version** : 1.0.0
-- **Email** : hellsoftware.dev@gmail.com
+- **Email** : HellTechnologies.dev@gmail.com
 
 ---
 
@@ -128,7 +128,7 @@ Cette politique de confidentialité est conforme aux exigences de :
 
 ---
 
-© 2025 HellSoftware - Daemon Image Snatcher
+© 2025 HellTechnologies - Daemon Image Snatcher
 
 Cette politique de confidentialité est valable pour la version 1.0.0 et les versions ultérieures de l'extension.
 
