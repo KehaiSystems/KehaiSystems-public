@@ -1,134 +1,132 @@
-# 🔒 Politique de Confidentialité - Daemon Image Snatcher
+# 🔒 Privacy Policy - Daemon Image Snatcher
 
-**Dernière mise à jour** : 27 janvier 2025  
-**Version de l'extension** : 1.0.0
-
----
-
-## Collecte de Données
-
-**Daemon Image Snatcher ne collecte, ne stocke, ni ne transmet aucune donnée personnelle.**
-
-L'extension fonctionne entièrement en local dans votre navigateur. Aucune information n'est envoyée à des serveurs externes.
+**Last updated** : January 27, 2025  
+**Extension version** : 1.3.0
 
 ---
 
-## Stockage Local
+## Data Collection
 
-L'extension utilise le **stockage local du navigateur** uniquement pour :
+**Daemon Image Snatcher does not collect, store, or transmit any personal data.**
 
-- **Sauvegarder les images scannées** : Les URLs et métadonnées des images sont stockées localement pour améliorer les performances lors des scans répétés sur la même page
-- **Limite de stockage** : Maximum 50 pages et 1000 images par page pour éviter le dépassement de quota
-- **Nettoyage automatique** : Les anciennes entrées sont automatiquement supprimées (FIFO) lorsque la limite est atteinte
-
-**Toutes les données restent sur votre appareil et ne sont jamais transmises.**
+The extension operates entirely locally in your browser. No information is sent to external servers.
 
 ---
 
-## Permissions Utilisées
+## Local Storage
 
-Daemon Image Snatcher demande les permissions suivantes pour fonctionner :
+The extension uses **browser local storage** only for:
+
+- **Saving scanned images** : Image URLs and metadata are stored locally to improve performance during repeated scans on the same page
+- **Storage limit** : Maximum 50 pages and 1000 images per page to avoid quota overflow
+- **Automatic cleanup** : Old entries are automatically deleted (FIFO) when the limit is reached
+
+**All data remains on your device and is never transmitted.**
+
+---
+
+## Permissions Used
+
+Daemon Image Snatcher requests the following permissions to function:
 
 ### `activeTab`
 
-**Utilisation** : Nécessaire pour scanner la page web actuellement active et extraire les images depuis le DOM.
+**Usage** : Required to scan the currently active web page and extract images from the DOM.
 
-**Données lues** : L'extension lit uniquement le contenu HTML/CSS de la page pour identifier les images. Aucune modification n'est apportée à la page.
+**Data read** : The extension only reads the HTML/CSS content of the page to identify images. No modifications are made to the page.
 
 ### `downloads`
 
-**Utilisation** : Nécessaire pour télécharger les images sélectionnées par l'utilisateur, individuellement ou en groupe (fichier ZIP).
+**Usage** : Required to download images selected by the user, individually or in groups (ZIP file).
 
-**Action** : Aucun téléchargement automatique n'est effectué. Tous les téléchargements sont initiés explicitement par l'utilisateur.
+**Action** : No automatic downloads are performed. All downloads are explicitly initiated by the user.
 
 ### `storage`
 
-**Utilisation** : Nécessaire pour sauvegarder localement les résultats des scans, améliorant les performances lors des scans répétés sur la même page.
+**Usage** : Required to locally save scan results, improving performance during repeated scans on the same page.
 
-**Données stockées** : URLs d'images, dimensions, formats, types. Aucune donnée personnelle n'est stockée.
+**Data stored** : Image URLs, dimensions, formats, types. No personal data is stored.
 
-**Toutes les données restent sur votre appareil. Aucune donnée n'est transmise à des serveurs externes.**
+**All data remains on your device. No data is transmitted to external servers.**
 
 ### `host_permissions: ['<all_urls>']`
 
-**Utilisation** : Nécessaire pour permettre à l'utilisateur de scanner les images sur toutes les pages web qu'il visite.
+**Usage** : Required to allow the user to scan images on all web pages they visit.
 
-**Action** : L'extension ne modifie pas les pages, elle lit uniquement le DOM pour extraire les URLs d'images.
+**Action** : The extension does not modify pages, it only reads the DOM to extract image URLs.
 
-**Important** : Cette permission est nécessaire pour que l'extension fonctionne sur tous les sites web. Aucune donnée n'est transmise à des serveurs externes.
-
----
-
-## Cookies et Traçage
-
-**Daemon Image Snatcher n'utilise aucun cookie et ne suit pas votre navigation.**
-
-L'extension ne contient aucun code de suivi, analytics, ou publicité. Aucune information sur votre navigation n'est collectée ou transmise.
+**Important** : This permission is necessary for the extension to work on all websites. No data is transmitted to external servers.
 
 ---
 
-## Données Tiers
+## Cookies and Tracking
 
-**L'extension ne communique avec aucun service tiers.**
+**Daemon Image Snatcher does not use any cookies and does not track your browsing.**
 
-Aucune API externe n'est appelée. Toutes les opérations (extraction, filtrage, téléchargement) sont effectuées localement dans votre navigateur.
-
----
-
-## Sécurité
-
-Daemon Image Snatcher prend la sécurité au sérieux :
-
-- **Validation des URLs** : Toutes les URLs d'images sont validées avant traitement pour éviter les protocoles dangereux
-- **Pas d'exécution de code** : L'extension ne télécharge ni n'exécute aucun code externe
-- **Stockage sécurisé** : Les données sont stockées dans le stockage local sécurisé du navigateur
-- **Content Security Policy** : L'extension utilise une CSP stricte pour prévenir les attaques XSS
+The extension contains no tracking code, analytics, or advertising. No information about your browsing is collected or transmitted.
 
 ---
 
-## Modifications de cette Politique
+## Third-Party Data
 
-Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Toute modification sera reflétée par une mise à jour de la date "Dernière mise à jour" en haut de cette page.
+**The extension does not communicate with any third-party services.**
 
-En cas de modification substantielle, nous vous informerons via une mise à jour de l'extension ou une notification dans le Chrome Web Store / Firefox Add-ons.
+No external APIs are called. All operations (extraction, filtering, downloading) are performed locally in your browser.
 
 ---
 
-## Vos Droits
+## Security
 
-Conformément au RGPD et aux lois sur la protection des données :
+Daemon Image Snatcher takes security seriously:
 
-- **Droit d'accès** : Vous pouvez consulter toutes les données stockées localement via les outils de développement de votre navigateur
-- **Droit de suppression** : Vous pouvez supprimer toutes les données en désinstallant l'extension ou en vidant le stockage local
-- **Droit de portabilité** : Les données sont stockées localement et peuvent être exportées via les outils de développement
+- **URL validation** : All image URLs are validated before processing to avoid dangerous protocols
+- **No code execution** : The extension does not download or execute any external code
+- **Secure storage** : Data is stored in the browser's secure local storage
+- **Content Security Policy** : The extension uses a strict CSP to prevent XSS attacks
 
-**Note** : Comme aucune donnée personnelle n'est collectée, ces droits s'appliquent uniquement aux données techniques stockées localement (URLs d'images, métadonnées).
+---
+
+## Changes to this Policy
+
+We reserve the right to modify this privacy policy at any time. Any changes will be reflected by updating the "Last updated" date at the top of this page.
+
+In case of substantial changes, we will inform you via an extension update or a notification in the Chrome Web Store / Firefox Add-ons.
+
+---
+
+## Your Rights
+
+In accordance with GDPR and data protection laws:
+
+- **Right of access** : You can view all locally stored data via your browser's developer tools
+- **Right to deletion** : You can delete all data by uninstalling the extension or clearing local storage
+- **Right to portability** : Data is stored locally and can be exported via developer tools
+
+**Note** : Since no personal data is collected, these rights apply only to technical data stored locally (image URLs, metadata).
 
 ---
 
 ## Contact
 
-Pour toute question concernant cette politique de confidentialité ou le traitement de vos données, vous pouvez nous contacter :
+For any questions regarding this privacy policy or the processing of your data, you can contact us:
 
-- **Développeur** : HellTechnologies
+- **Developer** : Kehai Systems
 - **Extension** : Daemon Image Snatcher
-- **Version** : 1.0.0
-- **Email** : HellTechnologies.dev@gmail.com
+- **Version** : 1.3.0
 
 ---
 
-## Conformité
+## Compliance
 
-Cette politique de confidentialité est conforme aux exigences de :
+This privacy policy complies with the requirements of:
 
-- **RGPD** (Règlement Général sur la Protection des Données) - Union Européenne
-- **CCPA** (California Consumer Privacy Act) - Californie, États-Unis
+- **GDPR** (General Data Protection Regulation) - European Union
+- **CCPA** (California Consumer Privacy Act) - California, United States
 - **Chrome Web Store Policies** - Google
 - **Firefox Add-on Policies** - Mozilla
 
 ---
 
-© 2025 HellTechnologies - Daemon Image Snatcher
+© 2025 Kehai Systems - Daemon Image Snatcher
 
-Cette politique de confidentialité est valable pour la version 1.0.0 et les versions ultérieures de l'extension.
-
+This privacy policy is valid for version 1.3.0 and subsequent versions of the extension.

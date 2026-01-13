@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Documents publics HellTechnologies - Politiques de confidentialité et informations légales">
-    <title>HellTechnologies - Documents Publics</title>
+    <meta name="description" content="HellTechnologies Public Documents - Privacy Policies and Legal Information">
+    <title>HellTechnologies - Public Documents</title>
     <style>
         * {
             margin: 0;
@@ -182,25 +182,25 @@
     <div class="container">
         <header>
             <h1>🔒 HellTechnologies</h1>
-            <p class="subtitle">Documents Publics - Politiques de Confidentialité et Informations Légales</p>
+            <p class="subtitle">Public Documents - Privacy Policies and Legal Information</p>
         </header>
 
         <div class="products-grid" id="products-grid">
-            <!-- Les produits seront chargés dynamiquement via JavaScript -->
+            <!-- Products will be loaded dynamically via JavaScript -->
         </div>
 
         <footer class="footer">
-            <p>© 2026 HellTechnologies - Tous droits réservés</p>
-            <p>Ce site regroupe tous les documents publics de nos produits</p>
+            <p>© 2026 HellTechnologies - All rights reserved</p>
+            <p>This site groups all public documents for our products</p>
         </footer>
     </div>
 
     <script>
-        // Détecter le chemin de base pour GitHub Pages
+        // Detect base path for GitHub Pages
         const basePath = window.location.pathname.split('/').slice(0, -1).join('/') || '';
         const productsJsonPath = basePath ? `${basePath}/products.json` : 'products.json';
         
-        // Charger la configuration depuis products.json
+        // Load configuration from products.json
         let products = [];
         
         async function loadProducts() {
@@ -213,19 +213,19 @@
                 products = data.products;
                 renderProducts();
             } catch (error) {
-                console.error('Erreur lors du chargement de products.json:', error);
-                // Fallback vers une configuration par défaut
+                console.error('Error loading products.json:', error);
+                // Fallback to default configuration
                 products = [
                     {
                         name: "Daemon Image Snatcher",
-                        description: "Extension Chrome et Firefox pour scanner et télécharger des images depuis les pages web",
+                        description: "Chrome and Firefox extension to scan and download images from web pages",
                         documents: [
                             {
-                                name: "Politique de Confidentialité (HTML)",
+                                name: "Privacy Policy (HTML)",
                                 url: basePath ? `${basePath}/Daemon-Image-Snatcher/privacy-policy.html` : "Daemon-Image-Snatcher/privacy-policy.html"
                             },
                             {
-                                name: "Politique de Confidentialité (Markdown)",
+                                name: "Privacy Policy (Markdown)",
                                 url: basePath ? `${basePath}/Daemon-Image-Snatcher/privacy-policy.md` : "Daemon-Image-Snatcher/privacy-policy.md"
                             }
                         ]
@@ -235,12 +235,12 @@
             }
         }
 
-        // Fonction pour générer les cartes de produits
+        // Function to generate product cards
         function renderProducts() {
             const grid = document.getElementById('products-grid');
             
             if (products.length === 0) {
-                grid.innerHTML = '<div class="product-card"><p class="no-documents">Aucun produit disponible pour le moment.</p></div>';
+                grid.innerHTML = '<div class="product-card"><p class="no-documents">No products available at the moment.</p></div>';
                 return;
             }
 
@@ -248,12 +248,12 @@
                 const documentsHtml = product.documents && product.documents.length > 0
                     ? `<ul class="documents-list">
                         ${product.documents.map(doc => {
-                            // Ajouter le chemin de base si nécessaire
+                            // Add base path if necessary
                             const docUrl = doc.url.startsWith('http') ? doc.url : (basePath ? `${basePath}/${doc.url}` : doc.url);
                             return `<li><a href="${docUrl}" class="doc-link" target="_blank" rel="noopener noreferrer">${doc.name}</a></li>`;
                         }).join('')}
                        </ul>`
-                    : '<p class="no-documents">Aucun document disponible pour ce produit.</p>';
+                    : '<p class="no-documents">No documents available for this product.</p>';
 
                 return `
                     <div class="product-card">
@@ -265,7 +265,7 @@
             }).join('');
         }
 
-        // Charger les produits au chargement de la page
+        // Load products on page load
         document.addEventListener('DOMContentLoaded', loadProducts);
     </script>
 </body>

@@ -2,15 +2,15 @@
   "products": [
     {
       "name": "Daemon Image Snatcher",
-      "description": "Extension Chrome et Firefox pour scanner et télécharger des images depuis les pages web",
+      "description": "Chrome and Firefox extension to scan and download images from web pages",
       "documents": [
         {
-          "name": "Politique de Confidentialité (HTML)",
+          "name": "Privacy Policy (HTML)",
           "url": "Daemon-Image-Snatcher/privacy-policy.html",
           "type": "privacy-policy"
         },
         {
-          "name": "Politique de Confidentialité (Markdown)",
+          "name": "Privacy Policy (Markdown)",
           "url": "Daemon-Image-Snatcher/privacy-policy.md",
           "type": "privacy-policy"
         }
