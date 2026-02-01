@@ -214,20 +214,22 @@
                 renderProducts();
             } catch (error) {
                 console.error('Error loading products.json:', error);
-                // Fallback to default configuration
+                // Fallback to default configuration (quand products.json inaccessible, ex. ouverture en file://)
                 products = [
                     {
                         name: "Kehai Image Snatcher",
                         description: "Chrome and Firefox extension to scan and download images from web pages",
                         documents: [
-                            {
-                                name: "Privacy Policy (HTML)",
-                                url: basePath ? `${basePath}/Kehai-Image-Snatcher/privacy-policy.html` : "Kehai-Image-Snatcher/privacy-policy.html"
-                            },
-                            {
-                                name: "Privacy Policy (Markdown)",
-                                url: basePath ? `${basePath}/Kehai-Image-Snatcher/privacy-policy.md` : "Kehai-Image-Snatcher/privacy-policy.md"
-                            }
+                            { name: "Privacy Policy (HTML)", url: basePath ? `${basePath}/Kehai-Image-Snatcher/privacy-policy.html` : "Kehai-Image-Snatcher/privacy-policy.html" },
+                            { name: "Privacy Policy (Markdown)", url: basePath ? `${basePath}/Kehai-Image-Snatcher/privacy-policy.md` : "Kehai-Image-Snatcher/privacy-policy.md" }
+                        ]
+                    },
+                    {
+                        name: "Kehai Override",
+                        description: "Extension Chrome et Firefox pour rediriger, modifier les headers, mocker les API et injecter du code (HellSoftware)",
+                        documents: [
+                            { name: "Politique de Confidentialité (HTML)", url: basePath ? `${basePath}/Kehai-Override/privacy-policy.html` : "Kehai-Override/privacy-policy.html" },
+                            { name: "Politique de Confidentialité (Markdown)", url: basePath ? `${basePath}/Kehai-Override/privacy-policy.md` : "Kehai-Override/privacy-policy.md" }
                         ]
                     }
                 ];
