@@ -1,17 +1,17 @@
-# HellTechnologies-public
+# Kehai-Systems-public
 
-Ce dépôt contient tous les documents publics des produits HellTechnologies, notamment les politiques de confidentialité et autres informations légales.
+Ce dépôt contient tous les documents publics des produits Kehai Systems, notamment les politiques de confidentialité et autres informations légales.
 
 ## 🌐 Accès en ligne
 
 Les documents sont accessibles via la page d'index principale : **`index.html`**
 
-Cette page liste tous les produits HellTechnologies et leurs documents disponibles, avec un design moderne et responsive.
+Cette page liste tous les produits Kehai Systems et leurs documents disponibles, avec un design moderne et responsive.
 
 ## 📁 Structure du projet
 
 ```
-HellTechnologies-public/
+Kehai-Systems-public/
 ├── index.html              # Page d'index principale
 ├── products.json           # Configuration des produits et documents
 ├── README.md              # Ce fichier
@@ -96,7 +96,7 @@ Ajoutez votre produit dans le fichier `products.json` :
 
 ## 🎨 Personnalisation
 
-Le design de `index.html` utilise un thème sombre avec les couleurs HellTechnologies :
+Le design de `index.html` utilise un thème sombre avec les couleurs Kehai Systems :
 - **Cyan** (`#00ced1`) : Couleur principale
 - **Rouge** (`#dc143c`) : Couleur d'accent
 - **Fond sombre** : Pour un look moderne
@@ -124,7 +124,7 @@ Tous les liens dans `products.json` doivent être **relatifs** à la racine du p
 1. **Pousser votre code sur GitHub**
    ```bash
    git add .
-   git commit -m "Initial commit - Site HellTechnologies"
+   git commit -m "Initial commit - Site Kehai Systems"
    git push origin main
    ```
 
@@ -139,7 +139,7 @@ Tous les liens dans `products.json` doivent être **relatifs** à la racine du p
 
 3. **Attendre le déploiement**
    - GitHub va déployer votre site (cela peut prendre 1-2 minutes)
-   - Une fois prêt, vous verrez l'URL de votre site : `https://[votre-username].github.io/HellTechnologies-public/`
+   - Une fois prêt, vous verrez l'URL de votre site : `https://[votre-username].github.io/Kehai-Systems-public/`
    - Vous pouvez aussi utiliser un domaine personnalisé si vous en avez un
 
 ### Méthode 2 : Via GitHub Actions (Automatique)
@@ -178,7 +178,7 @@ jobs:
 ### Vérification
 
 Une fois déployé, votre site sera accessible à :
-- `https://[votre-username].github.io/HellTechnologies-public/`
+- `https://[votre-username].github.io/Kehai-Systems-public/`
 - Ou avec un domaine personnalisé si configuré
 
 ### ⚠️ Notes importantes
@@ -202,4 +202,4 @@ Ce dépôt peut aussi être déployé sur :
 
 ---
 
-© 2026 HellTechnologies - Tous droits réservés
+© 2026 Kehai Systems - Tous droits réservés

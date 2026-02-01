@@ -1,11 +1,11 @@
 # 📖 Guide complet : Mettre en ligne sur GitHub Pages
 
-Ce guide vous explique étape par étape comment mettre en ligne votre site HellTechnologies sur GitHub Pages.
+Ce guide vous explique étape par étape comment mettre en ligne votre site Kehai Systems sur GitHub Pages.
 
 ## 📋 Prérequis
 
 - Un compte GitHub
-- Le dépôt `HellTechnologies-public` créé sur GitHub
+- Le dépôt `Kehai-Systems-public` créé sur GitHub
 - Git installé sur votre machine
 
 ## 🚀 Étapes de déploiement
@@ -32,14 +32,14 @@ ls -la
 # Si le dépôt n'est pas encore un dépôt Git
 git init
 git add .
-git commit -m "Initial commit - Site HellTechnologies public"
+git commit -m "Initial commit - Site Kehai Systems public"
 ```
 
 ### Étape 3 : Connecter à GitHub
 
 ```bash
 # Ajouter le dépôt distant (remplacez par votre URL)
-git remote add origin https://github.com/[votre-username]/HellTechnologies-public.git
+git remote add origin https://github.com/[votre-username]/Kehai-Systems-public.git
 
 # Pousser le code
 git branch -M main
@@ -49,7 +49,7 @@ git push -u origin main
 ### Étape 4 : Activer GitHub Pages
 
 1. **Ouvrez votre navigateur** et allez sur votre dépôt GitHub :
-   `https://github.com/[votre-username]/HellTechnologies-public`
+   `https://github.com/[votre-username]/Kehai-Systems-public`
 
 2. **Cliquez sur "Settings"** (Paramètres) en haut du dépôt
 
@@ -64,7 +64,7 @@ git push -u origin main
 5. **Attendez le déploiement** :
    - GitHub va afficher un message "Your site is being built"
    - Après 1-2 minutes, vous verrez : "Your site is live at..."
-   - L'URL sera : `https://[votre-username].github.io/HellTechnologies-public/`
+   - L'URL sera : `https://[votre-username].github.io/Kehai-Systems-public/`
 
 ### Étape 5 : Vérifier votre site
 
@@ -86,7 +86,7 @@ GitHub Pages se mettra à jour automatiquement en quelques minutes.
 
 ## 🌍 Utiliser un domaine personnalisé (Optionnel)
 
-Si vous avez un domaine (ex: `HellTechnologies.com`) :
+Si vous avez un domaine (ex: `kehaisystems.com`) :
 
 1. Dans **Settings > Pages**, ajoutez votre domaine dans **Custom domain**
 2. Configurez un enregistrement DNS CNAME pointant vers `[votre-username].github.io`
@@ -127,7 +127,7 @@ Si vous rencontrez des problèmes, consultez la [documentation officielle de Git
 ---
 
 **Votre site sera accessible à :**
-`https://[votre-username].github.io/HellTechnologies-public/`
+`https://[votre-username].github.io/Kehai-Systems-public/`
 
 
 
