@@ -113,8 +113,8 @@ Vous pouvez modifier les styles CSS dans `index.html` pour personnaliser l'appar
 ## 🔗 Liens relatifs
 
 Tous les liens dans `products.json` doivent être **relatifs** à la racine du projet. Par exemple :
-- ✅ `Daemon-Image-Snatcher/privacy-policy.html`
-- ❌ `/Daemon-Image-Snatcher/privacy-policy.html`
+- ✅ `Kehai-Image-Snatcher/privacy-policy.html`
+- ❌ `/Kehai-Image-Snatcher/privacy-policy.html`
 - ❌ `https://example.com/privacy-policy.html`
 
 ## 🚀 Déploiement sur GitHub Pages
@@ -198,7 +198,7 @@ Ce dépôt peut aussi être déployé sur :
 
 ## 📄 Produits actuels
 
-- **Daemon Image Snatcher** : Extension Chrome et Firefox pour scanner et télécharger des images
+- **Kehai Image Snatcher** : Extension Chrome et Firefox pour scanner et télécharger des images
 
 ---
 

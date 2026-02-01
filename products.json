@@ -1,17 +1,33 @@
 {
   "products": [
     {
-      "name": "Daemon Image Snatcher",
+      "name": "Kehai Image Snatcher",
       "description": "Chrome and Firefox extension to scan and download images from web pages",
       "documents": [
         {
           "name": "Privacy Policy (HTML)",
-          "url": "Daemon-Image-Snatcher/privacy-policy.html",
+          "url": "Kehai-Image-Snatcher/privacy-policy.html",
           "type": "privacy-policy"
         },
         {
           "name": "Privacy Policy (Markdown)",
-          "url": "Daemon-Image-Snatcher/privacy-policy.md",
+          "url": "Kehai-Image-Snatcher/privacy-policy.md",
+          "type": "privacy-policy"
+        }
+      ]
+    },
+    {
+      "name": "Kehai Override",
+      "description": "Extension Chrome et Firefox pour rediriger, modifier les headers, mocker les API et injecter du code (HellSoftware)",
+      "documents": [
+        {
+          "name": "Politique de Confidentialité (HTML)",
+          "url": "Kehai-Override/privacy-policy.html",
+          "type": "privacy-policy"
+        },
+        {
+          "name": "Politique de Confidentialité (Markdown)",
+          "url": "Kehai-Override/privacy-policy.md",
           "type": "privacy-policy"
         }
       ]

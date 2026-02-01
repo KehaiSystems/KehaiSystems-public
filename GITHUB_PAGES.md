@@ -23,7 +23,7 @@ ls -la
 # - products.json
 # - README.md
 # - .nojekyll
-# - Daemon-Image-Snatcher/
+# - Kehai-Image-Snatcher/
 ```
 
 ### Étape 2 : Initialiser Git (si pas déjà fait)

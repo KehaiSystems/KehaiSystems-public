@@ -1,4 +1,4 @@
-# 🔒 Privacy Policy - Daemon Image Snatcher
+# 🔒 Privacy Policy - Kehai Image Snatcher
 
 **Last updated** : January 27, 2025  
 **Extension version** : 1.3.0
@@ -7,7 +7,7 @@
 
 ## Data Collection
 
-**Daemon Image Snatcher does not collect, store, or transmit any personal data.**
+**Kehai Image Snatcher does not collect, store, or transmit any personal data.**
 
 The extension operates entirely locally in your browser. No information is sent to external servers.
 
@@ -27,7 +27,7 @@ The extension uses **browser local storage** only for:
 
 ## Permissions Used
 
-Daemon Image Snatcher requests the following permissions to function:
+Kehai Image Snatcher requests the following permissions to function:
 
 ### `activeTab`
 
@@ -61,7 +61,7 @@ Daemon Image Snatcher requests the following permissions to function:
 
 ## Cookies and Tracking
 
-**Daemon Image Snatcher does not use any cookies and does not track your browsing.**
+**Kehai Image Snatcher does not use any cookies and does not track your browsing.**
 
 The extension contains no tracking code, analytics, or advertising. No information about your browsing is collected or transmitted.
 
@@ -77,7 +77,7 @@ No external APIs are called. All operations (extraction, filtering, downloading)
 
 ## Security
 
-Daemon Image Snatcher takes security seriously:
+Kehai Image Snatcher takes security seriously:
 
 - **URL validation** : All image URLs are validated before processing to avoid dangerous protocols
 - **No code execution** : The extension does not download or execute any external code
@@ -111,7 +111,7 @@ In accordance with GDPR and data protection laws:
 For any questions regarding this privacy policy or the processing of your data, you can contact us:
 
 - **Developer** : Kehai Systems
-- **Extension** : Daemon Image Snatcher
+- **Extension** : Kehai Image Snatcher
 - **Version** : 1.3.0
 
 ---
@@ -127,6 +127,6 @@ This privacy policy complies with the requirements of:
 
 ---
 
-© 2025 Kehai Systems - Daemon Image Snatcher
+© 2025 Kehai Systems - Kehai Image Snatcher
 
 This privacy policy is valid for version 1.3.0 and subsequent versions of the extension.

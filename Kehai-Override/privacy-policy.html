@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Politique de Confidentialité - Kehai Override - Extension Chrome et Firefox">
+    <title>Politique de Confidentialité - Kehai Override</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --color-bg-dark: #0a0a0a;
+            --color-bg-overlay: rgba(20, 20, 20, 0.95);
+            --color-primary-cyan: #00ced1;
+            --color-primary-red: #dc143c;
+            --color-text-primary: #ffffff;
+            --color-text-secondary: #b0b0b0;
+            --color-text-muted: #888888;
+            --font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family-base);
+            background: var(--color-bg-dark);
+            color: var(--color-text-primary);
+            line-height: 1.8;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--color-bg-overlay);
+            padding: 3rem;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 206, 209, 0.3);
+            box-shadow: 0 0 30px rgba(0, 206, 209, 0.2);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid rgba(0, 206, 209, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-primary-cyan);
+            text-shadow: 0 0 20px rgba(0, 206, 209, 0.5);
+        }
+
+        .subtitle {
+            color: var(--color-text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .meta {
+            margin-top: 1rem;
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+        }
+
+        h2 {
+            color: var(--color-primary-cyan);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            border-left: 4px solid var(--color-primary-red);
+            padding-left: 1rem;
+        }
+
+        h3 {
+            color: var(--color-text-primary);
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            font-size: 1.3rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--color-text-secondary);
+        }
+
+        ul, ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            color: var(--color-text-secondary);
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight {
+            background: rgba(0, 206, 209, 0.1);
+            border-left: 3px solid var(--color-primary-cyan);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        .warning {
+            background: rgba(220, 20, 60, 0.1);
+            border-left: 3px solid var(--color-primary-red);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        code {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: var(--color-primary-cyan);
+        }
+
+        a {
+            color: var(--color-primary-cyan);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: var(--color-primary-red);
+            text-shadow: 0 0 10px rgba(220, 20, 60, 0.5);
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(0, 206, 209, 0.3);
+            text-align: center;
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: var(--color-primary-cyan);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer a:hover {
+            color: var(--color-primary-red);
+            text-shadow: 0 0 10px rgba(220, 20, 60, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 2rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔒 Politique de Confidentialité</h1>
+            <p class="subtitle">Kehai Override</p>
+            <div class="meta">
+                <p><strong>Dernière mise à jour</strong> : 2024</p>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <h2>Engagement en matière de confidentialité</h2>
+                <p><strong>Kehai Override</strong> est développé par <strong>HellSoftware</strong> avec un engagement fort envers la protection de votre vie privée. Cette extension est conçue pour fonctionner entièrement localement dans votre navigateur.</p>
+            </section>
+
+            <section>
+                <h2>Collecte de données</h2>
+                <h3>❌ Aucune collecte de données</h3>
+                <div class="highlight">
+                    <p><strong>Kehai Override ne collecte, ne transmet, ni ne stocke aucune donnée personnelle ou de navigation en dehors de votre navigateur.</strong></p>
+                </div>
+                <ul>
+                    <li>✅ <strong>Aucune télémétrie</strong> : Aucune donnée d'utilisation n'est envoyée à des serveurs externes</li>
+                    <li>✅ <strong>Aucun tracking</strong> : Aucun système de suivi ou d'analyse n'est intégré</li>
+                    <li>✅ <strong>Aucune connexion externe</strong> : L'extension ne se connecte à aucun serveur distant</li>
+                    <li>✅ <strong>Traitement local uniquement</strong> : Toutes les règles et configurations sont traitées localement</li>
+                </ul>
+
+                <h3>💾 Données stockées localement</h3>
+                <p>L'extension stocke uniquement les données suivantes <strong>localement dans votre navigateur</strong> :</p>
+                <ul>
+                    <li><strong>Règles de redirection</strong> : Vos règles personnalisées</li>
+                    <li><strong>Règles de headers</strong> : Vos configurations de modification d'en-têtes HTTP</li>
+                    <li><strong>Règles de mocks API</strong> : Vos réponses API simulées</li>
+                    <li><strong>Règles d'injection</strong> : Vos scripts JavaScript et CSS personnalisés</li>
+                    <li><strong>Profils et workspaces</strong> : Vos organisations de règles</li>
+                    <li><strong>Paramètres de l'extension</strong> : Vos préférences (activation/désactivation, etc.)</li>
+                </ul>
+                <p>Ces données sont stockées via l'API <code>browser.storage</code> du navigateur :</p>
+                <ul>
+                    <li><strong>Chrome</strong> : <code>chrome.storage.sync</code> (avec fallback sur <code>chrome.storage.local</code>)</li>
+                    <li><strong>Firefox</strong> : <code>browser.storage.sync</code> (avec fallback sur <code>browser.storage.local</code>)</li>
+                </ul>
+                <div class="highlight">
+                    <p><strong>Ces données restent exclusivement sur votre machine et ne sont jamais transmises à des tiers.</strong></p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Permissions requises</h2>
+                <p>L'extension demande les permissions suivantes pour fonctionner :</p>
+
+                <h3><code>host_permissions: ['&lt;all_urls&gt;']</code></h3>
+                <p><strong>Pourquoi</strong> : Nécessaire pour intercepter et modifier les requêtes HTTP/HTTPS sur tous les sites web selon vos règles.</p>
+                <p><strong>Ce que nous faisons</strong> : Nous interceptons uniquement les requêtes que vous avez configurées dans vos règles. Aucune donnée n'est transmise en dehors de votre navigateur.</p>
+
+                <h3><code>declarativeNetRequest</code></h3>
+                <p><strong>Pourquoi</strong> : Utilisé pour les redirections et modifications de headers via l'API moderne Manifest V3.</p>
+                <p><strong>Ce que nous faisons</strong> : Traitement local des règles sans transmission de données.</p>
+
+                <h3><code>webRequest</code></h3>
+                <p><strong>Pourquoi</strong> : Utilisé comme fallback pour les fonctionnalités avancées non supportées par Declarative Net Request.</p>
+                <p><strong>Ce que nous faisons</strong> : Interception locale uniquement, aucune transmission.</p>
+
+                <h3><code>storage</code></h3>
+                <p><strong>Pourquoi</strong> : Nécessaire pour sauvegarder vos règles et configurations.</p>
+                <p><strong>Ce que nous faisons</strong> : Stockage local uniquement dans votre navigateur.</p>
+
+                <h3><code>scripting</code></h3>
+                <p><strong>Pourquoi</strong> : Nécessaire pour injecter du code JavaScript/CSS personnalisé dans les pages selon vos règles.</p>
+                <p><strong>Ce que nous faisons</strong> : Injection uniquement du code que vous avez défini, aucun code externe.</p>
+
+                <h3><code>tabs</code> / <code>activeTab</code></h3>
+                <p><strong>Pourquoi</strong> : Nécessaire pour ouvrir la page d'options depuis le popup.</p>
+                <p><strong>Ce que nous faisons</strong> : Accès uniquement pour ouvrir l'interface de l'extension.</p>
+            </section>
+
+            <section>
+                <h2>Synchronisation (Chrome uniquement)</h2>
+                <p>Si vous utilisez Chrome et que la synchronisation Chrome est activée, vos règles peuvent être synchronisées entre vos appareils via <code>chrome.storage.sync</code>. Cette synchronisation est gérée par Chrome lui-même et suit la politique de confidentialité de Google.</p>
+            </section>
+
+            <section>
+                <h2>Import/Export</h2>
+                <p>L'extension permet d'exporter et d'importer vos configurations au format JSON. Ces fichiers sont gérés <strong>uniquement par vous</strong> et ne sont jamais transmis automatiquement.</p>
+            </section>
+
+            <section>
+                <h2>Contact</h2>
+                <p>Si vous avez des questions concernant cette politique de confidentialité, vous pouvez nous contacter via :</p>
+                <ul>
+                    <li><strong>Développeur</strong> : Kehai Systems</li>
+                    <li><strong>Extension</strong> : Kehai Override</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Modifications</h2>
+                <p>Nous nous réservons le droit de modifier cette politique de confidentialité. Toute modification sera reflétée dans ce document avec une mise à jour de la date "Dernière mise à jour".</p>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© Kehai Systems - Kehai Override</p>
+            <p><strong>En utilisant Kehai Override, vous acceptez cette politique de confidentialité.</strong></p>
+            <p><em>"Le pouvoir d'altérer le Web"</em> 😈</p>
+            <p><a href="#">Retour en haut</a></p>
+        </footer>
+    </div>
+</body>
+</html>
